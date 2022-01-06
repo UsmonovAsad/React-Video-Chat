@@ -5,15 +5,8 @@ import Menu from "./components/Menu";
 import Videos from "./components/Videos";
 import "./App.css";
 
-// Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyAYP3Z7xgpsa5Cl_Ti1z12UNUU1gqoUoTk",
-  authDomain: "video-chat-3bbcb.firebaseapp.com",
-  projectId: "video-chat-3bbcb",
-  storageBucket: "video-chat-3bbcb.appspot.com",
-  messagingSenderId: "703457965999",
-  appId: "1:703457965999:web:f2e332cc5c645d1621e15a",
-  measurementId: "G-8EFQJV6G69"
+   // Initialize Firebase
 };
 
 if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
